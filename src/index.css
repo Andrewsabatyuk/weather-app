@@ -11,13 +11,13 @@ body {
 }
 
 .app{
-  background-image: url('./img/warm.jpg');
+  background-image: url('./img/cold.jpg');
   background-size: cover;
   background-position: bottom;
-  transform: 0.4 easy-out;
+  transform: 0.4 easy;
 }
-.app.cold{
-  background-image: url('./img/snow.jpg');
+.app.warm{
+  background-image: url('./img/warm.jpg');
 }
 
 main{
